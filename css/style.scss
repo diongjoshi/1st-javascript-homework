@@ -1,0 +1,287 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+}
+
+.h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.light-color{
+    color: #BBBBCB;
+}
+
+
+.dark-color{
+    color: #282938;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    &__item--navbar-bg{
+        background: #1C1E53;
+        width: 100%;
+        height: 92px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: flex-end;
+        &__logo{
+            margin-right: auto;
+            margin-top: 32px;
+        }
+        .menu{
+            margin-top: 32px;
+            display: flex;
+            gap: 32px;
+            margin-right: 50px;
+            &__item{
+                list-style: none;
+            }
+            &__link{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                &:hover{
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &__btn{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 16px;
+            padding: 16px 48px;
+            color: #FFFFFF;
+            background: transparent;
+            border: 2px solid rgba(244, 246, 252, 0.2);
+            border-radius: 41px;
+        }
+    }
+    .about-us{
+        display: flex;
+        &__description{
+            flex: 1 1 60%;
+            margin-top: 244px;
+        }
+        &__image{
+            flex: 1 1 40%;
+            margin-top: 220px;
+        }
+        &__big-title{
+            max-width: 595px;
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 30px;
+        }
+        &__paragraph{
+            max-width: 484px;
+            width: 100%;
+        }
+
+    }
+    .who-we-are{
+        display: flex;
+        background: #F4F5F5;
+        margin-top: 128px;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        padding-left: 80px;
+        &__content{
+            flex: 1 1 50%;
+            margin-right: 50px;
+        }
+        &__big-heading{
+            margin-top: 4px;
+            margin-bottom: 16px;
+            max-width: 515px;
+            width: 100%;
+        }
+        &__paragraph{
+            max-width: 515px;
+            width: 100%;
+        }
+    }
+    .continuous-improvement{
+        padding-top: 32px;
+        flex: 1 1 50%;
+        &__heading{
+            margin-bottom: 16px;
+            max-width: 515px;
+            width: 100%;
+        }
+        &__paragraph{
+            max-width: 515px;
+            width: 100%;
+        }
+    }
+    .the-proccess{
+        margin-top: 128px;
+        &__title{
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        &__cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+        .card{
+            flex: 1 1 calc(25% - 32px);
+            &__line-icon{
+                margin-bottom: 32px;
+            }
+            &__title{
+                margin-bottom: 8px;
+            }
+            &__paragraph{
+                max-width: 250px;
+                width: 100%;
+            }
+        }
+    }
+     &__item--mission-vision-bg{
+        background: #EEF4FA;
+        margin-top: 128px;
+    }
+    .our-mission{
+        display: flex;
+        gap: 140px;
+        padding-top: 128px;
+        padding-bottom: 96px;
+        &__description{
+            flex: 1 1 calc(60% - 140px);
+            margin-top: 50px;
+        }
+        &__image{
+            flex: 1 1 calc(40% - 140px);
+        }
+        &__big-heading{
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        &__paragraph{
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+    .our-vision{
+        display: flex;
+        padding-bottom: 128px;
+        gap: 143px;
+        &__description{
+            flex: 1 1 calc(60% - 143px);
+            margin-top: 50px;
+        }
+        &__image{
+            flex: 1 1 calc(40% - 143px);
+        }
+        &__big-heading{
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        &__paragraph{
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+    .benefits{
+        margin-top: 128px;
+        margin-bottom: 128px;
+        &__heading{
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        &__cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+        .card{
+            background: #F4F6FC;;
+            flex: 1 1 calc(30% - 32px);
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            &:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+                transition: all .3s ease;
+            }
+            &__icon{
+                margin-bottom: 26px;
+            }
+            &__title{
+                margin-bottom: 12px;
+            }
+            &__paragraph{
+                max-width: 324px;
+                width: 100%;
+            }
+
+        }
+        &__logos{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__big-logo{
+            margin-top: 48px;
+        }
+        .logo-menu{
+            margin-top: 76px;
+            display: flex;
+            gap: 60px;
+        }
+        
+    }
+}
